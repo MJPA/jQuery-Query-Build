@@ -1,6 +1,6 @@
 // Query Build, a jQuery plugin for making a JSON filter input
 //
-// Version 0.0.1
+// Version 0.0.2
 // Full source at https://github.com/mjpa/query-build
 // Copyright (c) 2014 Mike Anchor
 // Released under MIT License
@@ -36,7 +36,7 @@
       }
 
       // Hide the element now
-      // $element.css({ display: 'none' });
+      $element.css({ display: 'none' });
     });
 
     // Save the form target
