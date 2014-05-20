@@ -50,7 +50,7 @@
                         .data(namespace + 'instance', instance)
                         .addClass(namespace + 'container')
                         .click(instance.openFacetSelect)
-                        .insertAfter(target);
+                        .appendTo(target);
 
     // Add the "Click to add filter..." text
     instance._help_text = $('<span></span>')
