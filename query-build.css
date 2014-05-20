@@ -1,0 +1,104 @@
+.query-build-container {
+  height: 30px;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  padding: 0 2px;
+  position: relative;
+}
+
+.query-build-help-text {
+  display: inline-block;
+  padding-left: 10px;
+  line-height: 30px;
+  height: 30px;
+  vertical-align: middle;;
+}
+
+.query-build-facet-select,
+.query-build-filter-value-options {
+  margin-top: 1px;
+  top: 100%;
+  border-top: 0;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.query-build-facet-select-active {
+  display: block;
+}
+
+.dropdown-menu:not(:hover) > li > a.query-build-filter-value-options-active {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #0081c2;
+  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+  background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+}
+
+.query-build-applied-filters {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.query-build-applied-filters > li {
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 12px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.query-build-applied-filters > li > span {
+  vertical-align: middle;
+}
+
+.query-build-applied-filter-name {
+  font-weight: bold;
+}
+
+.query-build-applied-filter-name::after {
+  content: ": ";
+}
+
+.query-build-applied-filter-value {
+  cursor: text;
+  min-width: 10px;
+  display: inline-block;
+}
+
+.query-build-applied-filter-value:focus {
+  outline: none;
+}
+
+.query-build-applied-filter-remove {
+  width: 16px;
+  border-radius: 16px;
+  color: #DB5050;
+  font-size: 10px;
+  text-align: center;
+  cursor: pointer;
+  height: 16px;
+  background: rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  line-height: 16px;
+  margin-left: 7px;
+}
